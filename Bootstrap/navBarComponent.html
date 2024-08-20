@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar_Component</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .navbar{
+            background-color: #722EFA;
+        }
+        .logo{
+            color: white;
+            transition: all 0.8s ease-out;
+        }
+        .logo:hover{
+            color: white;
+            transform: rotate(-10deg);  
+        }
+        .nav-link{
+            color: rgba(255, 255, 255, 0.753);
+            transition: all 0.5s ease;
+        }
+        .nav-link:hover{
+            color: white;
+        }
+        .d-flex{
+            margin-right: 500px;
+        }   
+        .form-control{
+            width: 200px;
+            padding-left: 35px;
+            border: 1px solid rgba(255, 255, 255, 0.413);
+        }
+        .bi-search{
+            font-size: 22px;
+            color: #722EFA;
+            position: relative;
+            left: 30px;
+            top: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  aria-current="page" href="#">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  aria-current="page" href="#">Icons</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link"  aria-current="page" href="#">Themes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <i class="bi bi-search"></i><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+                    <button class="btn btn-light" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+      </nav>
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet animi nulla odio, fugiat dolorum, aliquam ut consequatur voluptate dicta laboriosam cupiditate sequi aperiam esse a nobis officia recusandae! Tempora, doloremque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt natus quia ullam, at veritatis iste praesentium eos illum perferendis, esse rerum ipsam odio fuga laborum unde tempora voluptatum dolor error.
+        Tenetur molestiae nobis, sunt, totam, animi velit dignissimos eveniet doloribus recusandae neque fuga. Veritatis adipisci incidunt, magni quam porro fuga nesciunt earum facilis hic, vero rem odit nihil perferendis provident?
+        Nihil voluptate tempore maiores, harum aliquid vel, odio deserunt reprehenderit aut perferendis optio dolor minima saepe officiis quaerat ullam? Rerum eaque inventore molestiae aspernatur reiciendis distinctio veniam. Voluptates, libero quia.
+        Molestiae praesentium sunt laboriosam vel totam in dolores vitae tenetur nihil, distinctio possimus ipsam sequi, quidem iure iste enim hic aut nostrum animi magnam? Molestias dicta obcaecati suscipit temporibus! Aut.
+        Unde facilis aut consequuntur corporis ex veniam est quo magnam eos quibusdam voluptates, veritatis adipisci tenetur sequi voluptatum. Perspiciatis minus consequatur error cupiditate eligendi praesentium nihil perferendis excepturi ex quam?
+        Tempore dolorem, quos ab iure, error eaque recusandae nulla unde necessitatibus exercitationem officiis illum a repudiandae et obcaecati iste itaque modi beatae asperiores cumque, deleniti est? Id voluptatem optio ratione.
+        Odit doloremque delectus exercitationem, eius optio nostrum atque itaque, labore sunt deserunt recusandae enim ex, dolor error nisi veniam voluptas? Numquam ratione deleniti et incidunt, sequi in ea officia fuga!
+        Id eius tempora provident eveniet. Temporibus eaque aperiam earum magni cumque sit commodi quas itaque eos asperiores officia, dolorem eveniet ea architecto accusamus eligendi debitis modi? Laborum suscipit temporibus deleniti!
+        Quaerat ullam saepe distinctio cum voluptatem iure quasi autem nemo, maiores et repudiandae eos eaque labore, odio reprehenderit aut! Mollitia nulla ea consectetur sapiente dolores molestias id eaque eius dolorum!
+        Explicabo, temporibus. Rem totam accusamus ducimus iste, fuga harum, molestiae sed quis cum perspiciatis distinctio autem necessitatibus quas impedit nulla labore dicta nostrum! Illo voluptatem odit libero molestiae magnam quidem!
+        Repudiandae sed, quae quaerat tempore hic, temporibus accusantium odit reprehenderit, ratione ullam illum laudantium perferendis. Officiis aperiam, corrupti, repellat deserunt impedit voluptatem pariatur amet excepturi accusantium rerum, voluptas suscipit eos!
+        Consectetur nihil rerum nisi reprehenderit? Modi officia quia, repudiandae, vitae quod cum ipsum quo rem itaque quas fugiat deleniti aut nobis recusandae accusamus velit tempore? Cum ullam voluptas necessitatibus est!
+        Recusandae debitis voluptate nulla a velit libero illo aspernatur illum ex enim quae eligendi magnam nihil hic, repellendus iure, eos magni? Repellat, ut eaque voluptate impedit nihil suscipit odit maxime.
+        Numquam qui neque rem rerum delectus ex voluptatem placeat officiis dolore cum, libero nesciunt tempore pariatur dolorem nobis fugiat dolorum eum exercitationem, vel hic autem quisquam. Illum rem a magnam!
+        Dolorum, vel? Deleniti praesentium minus laudantium nihil saepe, porro dolore quibusdam id eligendi veniam dicta maiores labore at quisquam, impedit enim vitae autem rem amet ipsa reprehenderit. Veniam, facilis tenetur!
+        A quam libero accusantium nostrum est sunt quod dolores hic pariatur eveniet. Aspernatur eos et quo quae esse iusto corporis earum, hic consectetur officiis, quis sunt ipsum fugit incidunt assumenda.
+        Commodi sint odit porro doloremque enim consequatur ipsa molestiae velit voluptatum ipsam quidem aliquid laudantium officiis, voluptates cumque reprehenderit corporis optio eligendi quae atque iste dolore itaque quaerat repudiandae! Alias!
+        Non iusto modi reprehenderit dolor. Vitae, necessitatibus labore. Sint, unde molestias itaque eaque rem consectetur expedita ullam natus dolor necessitatibus maiores cupiditate ab doloribus pariatur. Architecto ab reprehenderit nemo laudantium!
+        Animi enim facilis quia voluptas asperiores, facere rem nisi optio cumque libero ratione pariatur atque sint vero ex? Reprehenderit, consectetur. Consequuntur odio reiciendis dolores inventore. Dolorum corporis eius repellendus doloribus!
+        Distinctio assumenda molestias amet autem. Neque eveniet voluptatibus, nam fugiat sint cum commodi optio? Tenetur, consectetur ut obcaecati molestias dolores similique maiores, nulla repudiandae culpa, nostrum accusantium iusto dolore ab.
+        Repellat necessitatibus culpa harum consectetur rerum porro aperiam distinctio doloremque perferendis dolores dignissimos, cupiditate minima sapiente, quibusdam pariatur nisi perspiciatis debitis? Quod error quo sunt, neque iure distinctio nihil aperiam.
+        Est at, voluptatum libero ab blanditiis ipsum voluptate nesciunt exercitationem cumque ratione tempora, dolor quaerat quibusdam eveniet, doloribus necessitatibus nisi similique sunt minus excepturi aliquid? Ab sint aliquam facere animi?
+        Inventore, illo, suscipit sint cum illum nam facere architecto enim voluptate odio accusantium quo, iure veniam consequuntur perspiciatis! Voluptas culpa quas incidunt rerum exercitationem nulla quisquam rem illum nostrum amet.
+        Fuga nesciunt repellendus voluptas quas quia quisquam labore dolore sunt laudantium molestiae nam voluptatem, delectus accusamus accusantium, quam, aut magnam unde similique cum quasi beatae porro doloribus! Totam, odit voluptate?
+        Sint cumque, non natus hic commodi corrupti? Fugit, corrupti non! Atque possimus, ratione nihil magni repudiandae quia nostrum distinctio, deserunt mollitia accusamus eum. Esse, sapiente magni. Deleniti voluptatibus neque dolorem?
+        Iste quam harum dolorum, sed, deleniti recusandae ullam natus mollitia quaerat aliquam quos possimus corporis praesentium deserunt repellendus error inventore ducimus provident culpa saepe facilis quae. Architecto quam eaque cumque.
+        Minus ullam velit voluptate officiis fugit, temporibus ipsa fugiat delectus error nisi animi quisquam autem tempore iste blanditiis incidunt aut ex maxime! Fuga, dignissimos quia deserunt ab eum placeat omnis!
+        Facilis delectus, consectetur pariatur odio, ex, sit eaque ad laborum ea veniam totam tempora excepturi modi. Quos iusto corporis corrupti itaque ullam, molestiae eaque mollitia. Facere nihil inventore veritatis aspernatur.
+        Voluptatem, consequuntur quibusdam. Aliquid officiis quas deserunt a assumenda, expedita voluptatibus veniam sint non cum, iusto, consequatur enim! Natus, harum nam soluta consequatur voluptas quisquam dignissimos qui libero nihil quaerat!
+        Similique, commodi quidem. Voluptate error corporis nobis eum et minus, quas atque voluptatum totam, repellat blanditiis fuga soluta, labore magnam omnis quisquam illum ducimus nihil modi! Doloribus nihil illo culpa?
+        Quia blanditiis provident vitae modi debitis, facere qui ratione optio dolore sit eius recusandae, laudantium placeat minima. Quo ducimus atque est natus, quae suscipit libero labore repellat ratione eveniet. Saepe!
+        Fugit minima tenetur, voluptatibus doloribus nobis non qui eius cum aperiam, deserunt debitis itaque est esse, veniam inventore. Voluptatum quod nostrum repellendus ipsum dignissimos reprehenderit, enim mollitia! Ducimus, similique laborum.
+        Aliquid, numquam nam. Magni molestiae suscipit aspernatur nisi iste sunt, eius perspiciatis inventore veniam nostrum! Provident ipsam, aperiam modi error neque magnam, cum, incidunt nam voluptas tenetur ab totam dolor.
+        Minima animi debitis ratione doloremque possimus velit dolores dolorem ab perspiciatis nesciunt ullam id, quo qui, ipsum delectus quam corporis reiciendis recusandae adipisci repudiandae numquam accusamus aut nobis aperiam. Dolorem!
+        Commodi quae similique error laudantium molestias, laboriosam veritatis dolorem, facere dignissimos fugit facilis eum, quo adipisci placeat enim animi. Labore corrupti ab amet dolore praesentium aperiam aspernatur a laboriosam incidunt!
+        Voluptates ducimus reprehenderit tempora ex facilis amet ipsum ab voluptate facere itaque? Eius id, cum tenetur reiciendis, dicta animi illum veritatis sed error blanditiis doloremque voluptatibus corporis, consequuntur quos perspiciatis.
+        At sequi optio ut delectus ipsam voluptatum repellendus non est itaque, dolor sunt, recusandae accusantium quibusdam rem rerum dignissimos. Odit magnam nihil eveniet nobis obcaecati nemo dolor officiis, qui est.
+        Similique repellendus enim, cum, possimus maxime quam nobis sapiente quibusdam dignissimos deleniti temporibus modi, minima maiores pariatur vero amet unde adipisci eveniet officiis voluptatibus iusto libero perferendis! Porro, perspiciatis fugiat!
+        Expedita non iusto fugit? Veritatis reiciendis ut totam aut nam eaque, amet delectus saepe fuga temporibus culpa quaerat aliquid autem iste distinctio voluptatibus eveniet voluptas officiis eius molestias expedita asperiores.
+        Deserunt vitae optio magnam fugiat aperiam. Dolores ipsam minima temporibus iure veritatis sit iusto, ab aut deleniti cum commodi quas autem amet, dignissimos voluptatem? Eum incidunt consequatur blanditiis asperiores explicabo!
+        Blanditiis eligendi ipsa pariatur quisquam aliquid officia deserunt esse culpa nostrum, quidem iusto aspernatur doloremque neque repellendus ex odio explicabo facere. Doloribus nemo recusandae inventore suscipit, dolorum quidem asperiores nulla!
+        Molestias saepe illo suscipit perspiciatis quidem deleniti assumenda repellendus esse dolorum tenetur non sequi harum earum ipsum, aperiam provident quo quas culpa neque incidunt architecto corrupti quos maiores! Quam, modi.
+        A beatae, cum nihil aliquam enim quis. Iure a, ab, ipsam sed voluptas illum blanditiis rerum beatae recusandae labore at deserunt itaque doloremque modi fuga temporibus adipisci. Deleniti, recusandae provident.
+        Accusantium sint exercitationem eaque deleniti? Sed placeat aut consequatur et eligendi? Assumenda maxime ducimus sapiente, sit architecto sed iure reprehenderit hic voluptate facere quae molestias temporibus, sunt delectus distinctio nesciunt?
+        Natus corrupti modi dignissimos eaque perspiciatis officia distinctio facilis tempore quasi vero rem maiores, enim reprehenderit, animi tenetur necessitatibus consequuntur eveniet aut. Magnam laborum minus sit. Quod rerum recusandae nesciunt.
+        Delectus, praesentium. Minus quod voluptatibus praesentium quidem repellendus inventore quia nisi, voluptatem dolorum, excepturi similique ea numquam non atque facilis a recusandae doloremque reprehenderit veritatis debitis officiis. Ad, obcaecati aliquam.
+        Ducimus libero mollitia necessitatibus. Delectus, ratione excepturi impedit quos iste tempore, ipsa eos, quam maxime quas dolorum perspiciatis corrupti. Facere explicabo fuga nisi optio blanditiis molestias cupiditate incidunt voluptatibus eligendi.
+        Ut minima sapiente dolor inventore ipsa asperiores perspiciatis modi, fugiat sunt amet aspernatur, laboriosam nulla soluta dicta praesentium? Sint voluptate atque aperiam eaque veniam aut, cumque magnam eligendi deserunt similique?
+        Quo libero, veritatis nisi nihil qui quia excepturi asperiores eum atque! Obcaecati consequuntur doloribus quo unde, accusantium rem, illo iste cum qui, explicabo architecto! Fugiat cupiditate alias adipisci laboriosam quia.
+        Eveniet voluptatum quisquam saepe ut, perspiciatis quos? Facilis iusto vero sequi ducimus fugit, nisi deserunt. Hic quis neque dignissimos, distinctio atque impedit quas velit, minus consectetur, officiis quae libero blanditiis!</p>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
