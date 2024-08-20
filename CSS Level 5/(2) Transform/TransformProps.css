@@ -1,0 +1,44 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid gold;
+    background-color: burlywood;
+    color: azure;
+    text-align: center;
+    transition: all 2s ease-in-out 1s;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+.box:hover{
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+
+    /* Transform-rotate => rotate the item */
+    /* transform: rotate(45deg) ; */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+
+    /* transform-scale => size my bhra ya chota hona */
+    /* transform: scale(2); */
+    /* transform: scale(x-axix, y-axis); */
+    /* transform: scale(2,1); */
+
+    /* Transform-translate => its mean screen pr kisi chez koo move krwana */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translate(x-axix, y-axis); */
+    /* transform: translate(200px,100px); */
+    /* transform: translate(-200px,100px); */
+
+    /* tranform-skew => its mean 2no corners sy 1 chez ko khich dena */
+    /* transform: skew(360deg); */
+    /* transform: skewX(50deg); */
+    /* transform: skewY(50deg); */
+
+    /* Transform Shorthand */
+    transform: rotate(45deg) translateX(100px) scale(1.5);
+}

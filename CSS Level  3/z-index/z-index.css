@@ -1,0 +1,36 @@
+div{
+    height: 150px;
+    width: 150px;
+    color: #000;
+    border: 1px solid cadetblue;
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    border: 1px dashed black;
+    background-color: wheat;
+}
+.box1{
+    /* relative position => Relative to itself  */
+    /* top,right,bottom,left,z-index have works*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: aquamarine;
+    /* positive z-index jitna bhara positive value my dy dia jay element utna hi upr ata hai */
+    z-index: 1;
+}
+
+.box2{
+    /* absolute => relative to parent or Amcestor */
+    position: absolute;
+    background-color: cornflowerblue;
+}
+.box3{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    background-color: darkcyan;
+    /* negative z-index jitna negative value dy dia jay utna hi nichy ki trf element jata hai */
+    z-index: -1;
+}

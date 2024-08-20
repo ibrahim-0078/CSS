@@ -1,0 +1,29 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid gold;
+    background-color: burlywood;
+    color: azure;
+    text-align: center;
+    /* transition-property: all; */
+    /* transition-duration: 2s; */
+    /* transition-timing-function: steps(3); */
+    /* ease-in => deery deery kisi chez pr Transion apply krna */
+    /* transition-timing-function: ease-in; */
+    /* delay mean kuch time ky bad Transition apply hoga */
+    /* transition-delay: 1s; */
+
+    /* Transition Shorthand */
+    /* transition => property name|duration|timing-fn|delay */
+    transition: all 2s ease-in-out 1s;
+}
+.box:hover{
+    background-color: aqua;
+    color: black;
+    font-size: 20px;
+}
+.box:active{
+    /* click krky hold krna hai */
+    background-color: hotpink;
+    color: white;
+}

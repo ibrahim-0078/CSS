@@ -1,0 +1,72 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+
+@media(max-width: 300px){
+    h1{
+        font-size: larger;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: white;
+        background-color: red;
+        text-align: center;
+    }
+    div{
+        background-color: gray;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    h1{
+        font-size: larger;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    div{
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+    h1{
+        font-size: larger;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: white;
+        background-color: orange;
+        text-align: center;
+    }
+    div{
+        background-color: yellowgreen;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media(min-width: 600px){
+    h1{
+        font-size: larger;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        color: white;
+        background-color: burlywood;
+        text-align: center;
+    }
+    div{
+        height: 88vh;
+        width: 99vw;
+        background-color: chartreuse;
+        background-image: url(code1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}

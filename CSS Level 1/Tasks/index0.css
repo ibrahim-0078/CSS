@@ -1,0 +1,12 @@
+#box{
+    background-color: bisque;
+    color: chocolate;
+    font-size: 100px;
+}
+.heading{
+    color: hotpink;
+}
+button{
+    background-color: #7fffd4;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navBar{
+    height: 50px;
+    background-color: #0f1111;
+}
+#navBar a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 175px;
+}
+#navBar a.logo{
+    color: orange;
+    margin-left: 8px;   
+    font-size: 30px;
+}
+#navBar input{
+    border: none;
+    border-radius: 2.5px;
+    outline: none;
+    height: 20px;
+    padding-left: 5px;
+}
+#navBar button{
+    background-color: orange;
+    color: #fff;
+    border: none;    
+    border-radius: 3px;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+#content{
+    background-color: cornsilk;
+    height: 450px;
+}
+.contentBox{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 100px;
+}
+footer{
+    background-color: #0f1111;
+    color: #fff;
+    padding: 7.5px;
+    text-align: center;
+}

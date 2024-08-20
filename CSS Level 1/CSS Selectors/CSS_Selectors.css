@@ -1,0 +1,40 @@
+/* universal Selector */
+/* (*)=> Asterisk */
+/* (&)=> Ampersand */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* element Selector => ju hum tags ko yani elements ky liy ju hum styling kerty called element selector */
+p{
+    color: #7fffd4;
+    font-size: 100px;
+}
+/* class Selector */
+.class{
+    color: hotpink;
+}
+/* id Selector */
+#id{
+    color: orange;
+}
+/* Descendent Selector */
+/* first select outer element and then slects  one same element inside divs or skip multiple elements tselect one element */
+div p{
+    background-color: black;
+}
+/* Attribute Selector */
+input[type="text"]{
+    color: crimson;
+    padding: 20px;
+    font-size: 25px;
+}
+input[type="password"]{
+    color: green;
+    padding: 20px;
+    font-size: 25px;
+}
+input[type]{
+    background-color: ghostwhite;
+}

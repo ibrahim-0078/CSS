@@ -1,0 +1,23 @@
+.box1{
+    /* Pixel is also a CSS unit */
+    height: 100px;
+    width: 100px;
+    background-color: rgb(252, 239, 187);
+    font-size: 10px;
+}
+.box2{
+    height: 100px;
+    /* % => which is relative to the width of its parent => % ju hota wo parent ky comparison my hota */
+    width: 50%;
+    background-color: rgb(46, 255, 255);
+    margin-left: 10%;
+    /* for font size (em) => which is relative to the font size of parent => Or multiply the parents font size by child font size  */
+    /* font-size: 4em; */
+    /* relative to the itself meAn child font size (em) */
+    /* padding-left: 4em; */
+    /* rem => which is relative to the root element ju ky <body> hai */
+    /* margin: 10rem; */
+    /* viewport Height(vh) and viewport Width(vw) => which is relative to the Browser screen  */
+    /* height: 100vh; */
+    /* width: 100vw; */
+}

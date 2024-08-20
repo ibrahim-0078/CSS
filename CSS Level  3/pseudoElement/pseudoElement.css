@@ -1,0 +1,12 @@
+/* Pseudo Elements */
+p::first-letter{
+    color: cornflowerblue;
+    font-size: 20pt;
+}
+p::first-line{
+    color: crimson;
+}
+p::selection{
+    background-color: cornsilk;
+    color: darkcyan;
+}

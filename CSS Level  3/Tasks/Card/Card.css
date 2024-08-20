@@ -1,0 +1,21 @@
+.card{
+    height: 250px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    filter: drop-shadow(1px 2px 4px black);
+    transition: 1s;
+}
+.card img{
+    border-radius: 5px 5px 0px 0px;
+    width: 230px;
+    height: 150px;
+}
+h3{
+    padding: 35px 0px 0px 50px;
+    /* text-shadow: 1px 2px 4px black; */
+}
+.card:hover{
+    box-shadow: 1px 2px 4px black;
+}

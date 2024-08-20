@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+div{
+    height: 80px;
+    width: 120px;
+    display: inline-block;
+    border: 1.5px solid rgb(69, 195, 124);
+}
+#container{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex start => left to right */
+    /* justify-content: flex-start; */
+    /* flex end => right to left */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+
+    flex-wrap:wrap;
+
+    /* align items takes space between flex items when wrap */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* align content takes no space between flex items when wrap */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: chocolate;
+}
+.box3{
+    background-color: cornflowerblue;
+}
+.box4{
+    background-color: darkcyan;
+}
+.box5{
+    background-color: darksalmon;
+}

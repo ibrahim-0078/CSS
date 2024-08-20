@@ -1,0 +1,14 @@
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 2px solid ghostwhite;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    /* but it takes space of his element */
+    opacity: 0;
+}

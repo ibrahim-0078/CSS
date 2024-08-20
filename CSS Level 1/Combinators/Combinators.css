@@ -1,0 +1,17 @@
+/* Combinator => multiple slectors ko gb hum use krna chaty hain tu unko combine krny ka ju kam kerty hain wo hamery combinators kerty hain  => +sign is a combinator*/
+
+/* Adjacent Sibling Combinator => element ky immediately bad ju element aata usko select kerta hai */
+p + h3{
+    font-weight: 900;
+    font-size: 50px;    
+    text-decoration: dotted line-through crimson;
+}
+ 
+ /* Child Combinator => yani 2 elements ya selectors ky bich my humny child wala relation establish krna ho tu chid combinator use kerty hai => >sign is a child combinator */
+ /* Directly Parent-Child relation */
+div > p{
+    border: 5px aliceblue dotted;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    text-align: center;
+}

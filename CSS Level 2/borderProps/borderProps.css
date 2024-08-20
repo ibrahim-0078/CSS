@@ -1,0 +1,23 @@
+h1{
+    /* border => shorthand = 1px solid color*/
+    border: 3px dashed hotpink;
+    /* shortHand => border-radius: top-left,top-right,bottom-right,bottom-left; */
+    border-radius: 20px 0px 20px 0px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+h2{
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+h3{
+    border: 4px dotted  chocolate;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

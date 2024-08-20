@@ -1,0 +1,55 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid gold;
+    border-radius: 50%;
+    background-color: cornsilk;
+    text-align: center;
+    position: relative;
+    /* animation-name: colorAnimate; */
+    /* animation-duration: 3s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s; */
+
+    /* animation-iteration-count => How many times should my Animation apply */
+    /* animation-iteration-count: 4; */
+
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-direction: alternate; */
+
+    /* animation shortHand => animation-name|animation-duration|animation-timing-function|animation-delay|animation-iteration-count|animation-direction */
+    animation: colorAnimate 5s ease-in 0s 4 alternate;
+}
+/* Keyframes ka matlb hota basically template bta dena ky mera change yaha sy lyker yha tk hona chiy actuall Animation sy pehly */
+/* @keyframes colorAnimate{
+    from{
+        background-color: cornsilk;
+        left: 0px;
+    }
+    to{
+        background-color: burlywood;
+        left: 1000px;
+    }
+} */
+@keyframes colorAnimate{
+    0%{
+        background-color: cornsilk;
+        left: 0px;
+        top: 0px;
+    }
+    50%{
+        background-color: khaki;
+        top: 100px;
+    }
+    75%{
+        background-color: burlywood;
+        top: -50px;
+    }
+    100%{
+        background-color: darkgoldenrod;
+        top: 50px;
+        left: 1000px;
+    }
+}

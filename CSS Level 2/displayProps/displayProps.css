@@ -1,0 +1,27 @@
+p{
+    background-color: pink;
+    /* display-inline => TAkes only the space required by Element (we can not set margin,padding,height,width) */
+    display: inline;
+    /* height: 200px;
+    width: 200px; */
+}
+button{
+    /* display-block => Takes full space available in width */
+    display: block;
+    margin-top: 5px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    margin: 20px;
+    text-align: center;
+    /* display-inline => TAkes only the space required by Element ( But we also set margin,padding,height,width) */
+    display: inline-block;
+}
+#box2{
+    /* display-none => No space is reserved for the element*/
+    display:none;
+    /* visibility-hidden => Space is reserved for the element */
+    /* visibility: hidden; */
+}

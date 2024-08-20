@@ -1,0 +1,9 @@
+body{
+    /* jis property ko value !important dy dein usko hum kbi change nhi krskhty bcz iski priority sb sy zyda huti hai (inline,external,internal) kee nisbat*/
+    background-image: url(1.jpg) !important;
+    /* background-image props */
+    background-size: cover;
+    /* background-position: center; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}

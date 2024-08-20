@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    border: 1.5px solid rgb(69, 195, 124);
+}
+#container{
+    height: 300px;
+    width: 1000px;
+    /* display flex => all items converts to column */
+    display: flex;
+    /* by default => flex-direction = row (left to Right)*/
+    flex-direction: row;
+    /* row-reverse =>  Right to left*/
+    /* flex-direction: row-reverse; */
+    /* column => Top to Bottom */
+    /* flex-direction: column; */
+    /* column => Bottom to Top */
+    /* flex-direction: column-reverse; */
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: chocolate;
+}
+.box3{
+    background-color: cornflowerblue;
+}
+.box4{
+    background-color: darkcyan;
+}
+.box5{
+    background-color: darksalmon;
+}

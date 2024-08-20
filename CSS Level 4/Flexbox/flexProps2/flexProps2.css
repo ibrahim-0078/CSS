@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+div{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    border: 1.5px solid rgb(69, 195, 124);
+}
+#container{
+    height: 350px;
+    width: 500px;
+    display: flex;
+}
+.box1{
+    background-color: aquamarine;
+    /* flex-grow => bhra hojana or adjust yourself when container have extra space */
+    /* flex-grow: 2; */
+}
+.box2{
+    background-color: chocolate;
+    /* flex-shrink => chota hojana Or adjust yourself when container has no extra space*/
+    /* height: 150px; */
+    /* flex-shrink: 3; */
+}
+.box3{
+    background-color: cornflowerblue;
+    align-self: flex-end;
+    /* align-self: center; */
+    /* align-self: flex-start; */
+}
+.box4{
+    background-color: darkcyan;
+    /* flex-shrink => chota hojana Or adjust yourself when container has no extra space*/
+    /* height: 200px; */
+    /* flex-shrink: 5; */
+
+}
+.box5{
+    background-color: darksalmon;
+    /* flex-grow => bhra hojana or adjust yourself when container have extra space */
+    /* flex-grow: 4; */
+}
